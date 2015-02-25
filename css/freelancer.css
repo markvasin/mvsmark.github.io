@@ -61,6 +61,7 @@ hr.star-light {
     border-color: #C8C8C8;
 }
 
+
 hr.star-light:after {
     color: #C8C8C8;
     background-color: #222222;
@@ -126,6 +127,7 @@ header .intro-text .skills {
 @media(min-width:768px) {
     .navbar-fixed-top {
         padding: 10px 0;
+        background: #FFF;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -140,7 +142,8 @@ header .intro-text .skills {
 
     .navbar-fixed-top.navbar-shrink {
         padding: 0px 0;
-    }s
+        background: #222222;
+    }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
@@ -181,7 +184,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #222222;
+    background: #605E5E;
 }
 
 @media(max-width:767px) {
